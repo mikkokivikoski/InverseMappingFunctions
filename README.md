@@ -4,6 +4,10 @@ This repository contains the data and scripts to reproduce the inverse mapping f
 
 ## Structure of the repository
 
+### Examples
+
+ Small example data and a script to demonstrate how to infer the likelihoods for different bivalent crossover counts and how to predict the recombination frequency between two markers, by using the *p<sub>0</sub>(k)* function or inverse mapping functions.
+
 ### Data
 
 - Nine-spined stickleback (*Pungitius pungitius*) Marey map and offspring haplotypes.
@@ -23,6 +27,3 @@ This repository contains the data and scripts to reproduce the inverse mapping f
  
  R scripts to replicate the analyses.
  
-### Examples
- 
- Small example data and a script to demonstrate how to infer the likelihoods for different bivalent crossover counts and how to predict the recombination frequency between two markers, by using the *p<sub>0</sub>(k)* function or inverse mapping functions.
