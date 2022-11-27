@@ -5,6 +5,7 @@
 	1. Family ID, female-male
 	2. Offspring ID
 	3. Offspring sex
+	
 	Column names:
 	1. Linkage group
 	2. Position
@@ -22,7 +23,8 @@
 - Gaculeatus_linkagemap_header.txt
 
 	A header for the three-spined stickleback linkage map.
-        Four header lines:
+        
+	Four header lines:
 	1. Offspring ID
 	2. Male ID
 	3. Female ID
