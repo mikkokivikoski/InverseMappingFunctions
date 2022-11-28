@@ -17,6 +17,14 @@ Analyses steps as R scripts.
 
  Small example data and a script to demonstrate how to infer the likelihoods for different bivalent crossover counts and how to predict the recombination frequency between two markers, by using the *p<sub>0</sub>(k)* function or inverse mapping functions.
 
+ To run the example, type at the command prompt: 
+
+ `git clone https://github.com/mikkokivikoski/InverseMappingFunctions.git
+  
+  cd InverseMappingFunctions/Examples/
+  
+  Rscript example.r`
+
 ### Functions
 
 - emAlgortihmForCoProbabilities.r
