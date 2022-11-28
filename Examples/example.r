@@ -5,7 +5,7 @@
 ##
 
 # Step 1: Estimate the likelihoods for the bivalent crossovers.
-source("emAlgorithmForCoProbabilities.r") 
+source("../Functions/emAlgorithmForCoProbabilities.r") 
 crossover.data=read.table("gametic_crossovers.csv",header=T,stringsAsFactors=F,sep="\t")
 
 maximum.co.count=max(crossover.data$Crossovers)
@@ -20,7 +20,7 @@ for (chr in unique(crossover.data$Chromosome)){
 print(MLEstimates)
 
 # Step 2: Predict the likelihoods for the bivalent crossovers, utilizing the estimates derived above.
-source("p0kFunction.r")
+source("../Functions/p0kFunction.r")
 marker.data=read.table("markers.csv",header=T,stringsAsFactors=F,sep="\t")
 for(i in 1:nrow(marker.data)){
 	chr.tmp=marker.data[i,"Chromosome"]
