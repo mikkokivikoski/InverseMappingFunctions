@@ -19,11 +19,11 @@ Analyses steps as R scripts.
 
  To run the example, type at the command prompt: 
 
- `git clone https://github.com/mikkokivikoski/InverseMappingFunctions.git
+ `git clone https://github.com/mikkokivikoski/InverseMappingFunctions.git`
   
-  cd InverseMappingFunctions/Examples/
+  `cd InverseMappingFunctions/Examples/`
   
-  Rscript example.r`
+  `Rscript example.r`
 
 ### Functions
 
